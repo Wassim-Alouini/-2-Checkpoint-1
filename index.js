@@ -13,15 +13,15 @@ pets.forEach((item) => {
   item.age = getAge(item)
   petsWithAge.push(item)
 })
-console.log(petsWithAge);
+document.querySelector(#array1).outerHTML = (petsWithAge);
 
 const dogs = petsWithAge.filter((item) => {
   return item.type == `dog`
 })
-console.log(dogs)
+document.querySelector(#array2).outerHTML = (dogs)
 
 const jasper = petsWithAge.filter((item) => {
   return item.name == `Jasper`
 })
 
-console.log(`Jasper is ${jasper[0].age} years old`);
+document.querySelector(#jasper).outerHTML = (`Jasper is ${jasper[0].age} years old`);
